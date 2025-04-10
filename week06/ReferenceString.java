@@ -57,6 +57,10 @@ public class ReferenceString {
 		String[] tokens = board.split(",");
 		for (int i=0; i<tokens.length; i++)
 			System.out.print(tokens[i] + " ");
+		
+		//향상된 for 문 적용
+		for(String str : tokens)
+			System.out.println(str);
 	}
 
 }
