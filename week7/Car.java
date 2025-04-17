@@ -15,10 +15,12 @@ public class Car {
 	}
 	
 	// 매개변수가 있는 생성자 정의
-	Car(String m, String c, int maxS) {
+	Car(String model, String color, int maxSpeed) {
 		// 생성자의 기본 역할은 필드값의 초기화를 담당하는 것
-		model = m;
-		color = c;
-		maxSpeed = maxS;
+		// 매개변수와 필드명이 동일한 경우
+		// 객체 자신을 참조하는 this를 사용해야 함
+		this.model = model;
+		this.color = color;
+		this.maxSpeed = maxSpeed;
 	}
 }
