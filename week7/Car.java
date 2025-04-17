@@ -18,15 +18,17 @@ public class Car {
 	}
 	
 	Car(String model) {
-		this.model = model;
-		this.color = "black";
-		this.maxSpeed = 300;
+//		this.model = model;
+//		this.color = "black";
+//		this.maxSpeed = 300;
+		this(model, "black", 300);
 	}
 	
 	Car(String model, String color) {
-		this.model = model;
-		this.color = color;
-		this.maxSpeed = 250;
+//		this.model = model;
+//		this.color = color;
+//		this.maxSpeed = 250;
+		this(model, color, 250);
 	}
 	
 	// 매개변수가 있는 생성자 정의
