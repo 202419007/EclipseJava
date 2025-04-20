@@ -18,3 +18,9 @@ public class Promotion {
 		System.out.println(dValue);
 	}
 }
+
+// 출력
+// 25
+// 44032
+// 44032
+// 44032.0
