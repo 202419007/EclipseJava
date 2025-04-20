@@ -26,3 +26,10 @@ public class DataType3 {
 		System.out.println("bData = " + boolD);
 	}
 }
+
+// 출력
+// bData = 127
+// bData = Z
+// bData = 3.14
+// bData = 10000000000
+// bData = true
