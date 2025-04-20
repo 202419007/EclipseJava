@@ -2,7 +2,7 @@ package week2;
 
 public class PersonalInfo {
 	public static void main(String[] args) {
-		String name = "양예은";
+		String name = "홍길동";
 		int age = 20;
 		double height = 175.5;
 		char gender = 'F';
@@ -15,3 +15,10 @@ public class PersonalInfo {
 		System.out.println("학생 여부: " + is_Student);
 	}
 }
+
+// 출력
+// 이름: 홍길동
+// 나이: 20세
+// 키: 175.5cm
+// 성별: F
+// 학생 여부: true
