@@ -14,3 +14,8 @@ public class ProductPrice {
 		System.out.printf("구매 수량 : %.1f원n", aPrice);
 	}
 }
+
+// 출력
+// 구매 수량 : 5700개
+// 총 구매 금액 : 7원
+// 구매 수량 : 814.3원n
