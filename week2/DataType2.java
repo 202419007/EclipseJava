@@ -32,3 +32,16 @@ public class DataType2 {
 		System.out.println("cData11 = " + cData11);
 	}
 }
+
+// 출력
+// cData1 = A
+// cData2 = A
+// cData3 = A
+// cData4 = 가
+// cData5 = 가
+// cData6 = 가
+// cData7 = 66
+// cData8 = 54616
+// cData9 = 38
+// cData10 = 104
+// cData11 = h
