@@ -38,3 +38,21 @@ public class DataType1 {
 		
 	}
 }
+
+// fValue = 3.14
+// dValue = 3.14
+// fValue = 0.12345679
+// dValue = 0.12345678901234568
+// iData = 4500000
+// fData = 3.0E7
+// dData1 = 3.0E7
+// dData2 = 3.0E-7
+
+// iData = 4500000
+// fData = 30000000.000000
+// dData1 = 30000000.000000
+// dData2 = 0.000000
+
+// fData = 30000000.0000
+// dData1 = 30000000.00
+// dData2 = 0.00000030
