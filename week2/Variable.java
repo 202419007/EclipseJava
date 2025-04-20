@@ -24,3 +24,13 @@ public class Variable {
 		System.out.println("booleanData = " + boolData);
 	}
 }
+
+// 출력
+// bData = 65
+// cData = A
+// sData = 65
+// iData = 65
+// lData = 65
+// fData = 65.12
+// dData = 65.12
+// booleanData = true
