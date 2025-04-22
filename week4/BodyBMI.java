@@ -38,6 +38,7 @@ public class BodyBMI {
 		}
 		
 		System.out.println(name+"님의 키는 "+height+"cm, 몸무게는 "+weight+"kg");
+		System.out.println("BMI 지수는 "+bmi+"이고 "+result +"입니다.");
 		System.out.printf("BMI 지수 = %.2f, %s", bmi, result);
 		
 		sc.close();
