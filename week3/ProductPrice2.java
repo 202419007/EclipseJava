@@ -20,13 +20,15 @@ public class ProductPrice2 {
 		total += s_cnt * s_price;
 		System.out.println("할인 전 상품 가격 : " + total + "원");
 				
-		//할인 적용
+		//할인 적용 : 야채 품목은 제외
 		double rate = 25;
-		double discount = total * (rate / 100);
+		int totalVege = c_price * c_cnt;
+		int totalNoneVege = total - totalVege;
+		double discount = totalNoneVege * (rate / 100);
 		System.out.println("할인 금액 : " + discount + "원");
 				
 		//최종 결제 금액
-		double final_amt = total - discount;
+		double final_amt = totalVege + (totalNoneVege - discount);
 		System.out.println("최종 금액 : " + final_amt + "원");
 	}
 }
