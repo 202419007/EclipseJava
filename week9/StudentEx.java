@@ -9,3 +9,6 @@ public class StudentEx {
 	}
 
 }
+
+// 출력
+// 홍길동 : 총점 262점, 평균 87.3점
