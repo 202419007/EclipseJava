@@ -5,9 +5,27 @@ public class Phone {
 	// 부모 클래스
 	
 	// private 인 경우에는 상속이 않됨
-	public String model;
-	public String color;
+	private String model;
+	private String color;
 	
+	public Phone(String mode, String color) {
+		// 기본 생성자 : ctrl + space
+		this.model = model;
+		this.color = color;
+		System.out.println("Phone() 생성자 호출");
+	}
+	
+	
+	public String getModel() {
+		return model;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+
+
 	public void bell() {
 		System.out.println("벨이 울립니다.");
 	}
