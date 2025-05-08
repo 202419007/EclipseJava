@@ -5,9 +5,10 @@ public class SmartPhone extends Phone{
 	private boolean wifi;
 	
 	public SmartPhone(String model, String color) {
-		this.model = model;
-		this.color = color;
-		
+//		this.model = model;
+//		this.color = color;
+		// 부모 클래스 생성자를 호출
+		super(model, color);
 		System.out.println("SmartPhone() 생성자 호출");
 	}
 	
