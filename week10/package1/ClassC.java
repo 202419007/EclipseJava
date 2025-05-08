@@ -1,3 +1,4 @@
+// method 이론
 package package1;
 
 import week10.ClassA;
