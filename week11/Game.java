@@ -13,7 +13,7 @@ public abstract class Game {
 	public void start() {
 		System.out.println("제목 : " + title);
 		System.out.println("버전 : " + version);
-		System.out.println(title + "게임을 시작합니다.");
+		System.out.println(title + " 게임을 시작합니다.");
 	}
 	
 	// 게임에 대한 설명이 필요 => 게임마다 다르다
