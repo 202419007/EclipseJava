@@ -11,6 +11,6 @@ public class Cat extends Animal {
 	}
 	
 	public void catLife() {
-		System.out.println("Cat 평균 수명은 약 15~20년입니다.");
+		System.out.println("Cat 평균 수명은 약 12~15년입니다.");
 	}
 }
