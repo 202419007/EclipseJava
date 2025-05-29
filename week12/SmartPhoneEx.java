@@ -36,3 +36,28 @@ public class SmartPhoneEx {
 	}
 
 }
+
+// 출력
+// ** 스마트폰으로 음악 재생하기 **
+
+// 연결할 이어폰 선택(1.Buds 2.AirPods 3.TonFree 4.종료) >> 1
+
+// Buds 이어폰 연결
+// 삼성 Buds 음악 재생 중...
+// 삼성 Buds 음악을 중지합니다.
+
+// 연결할 이어폰 선택(1.Buds 2.AirPods 3.TonFree 4.종료) >> 2
+
+// 새로 구입한 Apple AirPods 연결
+// Apple AirPods 음악 재생 중~
+// Apple AirPods 음악을 중지합니다.
+
+// 연결할 이어폰 선택(1.Buds 2.AirPods 3.TonFree 4.종료) >> 3
+
+// LG 블루투스 이어폰 톤프리 연결
+// LG 톤프리 음악 재생 중~~
+// LG 톤프리 음악을 중지합니다.
+
+// 연결할 이어폰 선택(1.Buds 2.AirPods 3.TonFree 4.종료) >> 4
+// 프로그램 종료
+
