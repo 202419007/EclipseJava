@@ -12,7 +12,7 @@ public class ProducerThread extends Thread {
 	public void run() {
 		// 생산자 작업 내용
 		// data를 쓰기만 하는 직업
-		for (int i=1; i<3; i++) {
+		for (int i=1; i<=3; i++) {
 			String data = "Data-" + i;
 			try {
 				dataBox.setData(data);
