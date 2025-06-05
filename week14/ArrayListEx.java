@@ -1,8 +1,13 @@
 package week14;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.Vector;
 
 public class ArrayListEx {
@@ -53,6 +58,36 @@ public class ArrayListEx {
 		System.out.println();
 		for(String s : linkedList)
 			System.out.println(s);
+		
+		// Set 켈렉션
+		Set<String> set = new HashSet<String>();
+		set.add("apple");
+		set.add("kiwi");
+		set.add("tomato");
+		set.add("apple");
+		set.add("melon");
+		
+		System.out.println();
+		Iterator<String> iter = set.iterator();
+		while(iter.hasNext())
+			System.out.println(iter.next());
+		
+		System.out.println();
+		for(String s : set)
+			System.out.println(s);
+		
+		System.out.println();
+		// Map
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("name", "홍길동");
+		map.put("nickname", "홍길동");
+		map.put("name", "이순신");
+		map.put("gender", "남자");
+		map.put("id", "admin");
+		map.put("password", "1234");
+		
+		for(String s : map.keySet())
+			System.out.println(s + " = " + map.get(s));
 	}
 
 }
@@ -78,3 +113,19 @@ public class ArrayListEx {
 
 // melon
 // banana
+
+// apple
+// kiwi
+// tomato
+// melon
+
+// apple
+// kiwi
+// tomato
+// melon
+
+// password = 1234
+// gender = 남자
+// name = 이순신
+// nickname = 홍길동
+// id = admin
