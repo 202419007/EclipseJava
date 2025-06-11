@@ -51,3 +51,5 @@ public class ChildEx {
 // Parent-method1()
 // Child-method2()
 // Child-method3()
+// Exception in thread "main" java.lang.ClassCastException: class week11.Parent cannot be cast to class week11.Child (week11.Parent and week11.Child are in unnamed module of loader 'app')Add commentMore actions
+// 	at week11.ChildEx.main(ChildEx.java:39)
